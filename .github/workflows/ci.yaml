@@ -16,7 +16,6 @@ jobs:
 
   build-push-application:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/master'
     steps:
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v1
